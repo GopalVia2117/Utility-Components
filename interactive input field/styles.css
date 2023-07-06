@@ -22,7 +22,7 @@ body {
   transform: translateY(-50%);
   left: 0.5rem;
   pointer-events: none;
-  transition: all 800ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 
 .input-field {
@@ -30,7 +30,7 @@ body {
   padding: 1rem 0.5rem;
   outline: none;
   border: none;
-  transition: all 2000ms ease-in-out;
+  transition: all 400ms ease-in-out;
   color: whitesmoke;
   background-color: rgba(0, 0, 0, 0.7);
 }
