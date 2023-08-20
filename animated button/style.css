@@ -1,0 +1,33 @@
+.animated-button{
+    border: 3px solid blue;
+    padding: 16px 48px;
+    color: blue;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.animated-button> span{
+    width: 0px;
+    height: 0px;
+    border-radius: 100%;
+    background-color: blue;
+    transition: all 1s;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.animated-button:hover{
+    color: white;
+}
+
+.animated-button:hover> span{
+    width: 700px;
+    height: 700px;
+}
